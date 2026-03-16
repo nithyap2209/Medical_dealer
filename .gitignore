@@ -4,13 +4,14 @@ __pycache__/
 .scrapy/
 *.html
 
-# Large data files - not needed in repo
+# Large data files
 scrape_progress.json
-output/scraped_data.json
 
 # Excel temp files
 ~$*.xlsx
 
-# Output folders (scraped data)
-output/
+# JustDial output
 output_justdial/
+
+# Large JSON data files
+output/scraped_data.json
