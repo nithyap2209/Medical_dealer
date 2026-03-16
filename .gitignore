@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.claude/
+.scrapy/
+*.html
+
+# Large data files - not needed in repo
+scrape_progress.json
+output/scraped_data.json
+
+# Excel temp files
+~$*.xlsx
+
+# Output folders (scraped data)
+output/
+output_justdial/
